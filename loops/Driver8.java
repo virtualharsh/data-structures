@@ -1,4 +1,4 @@
-// 7. Find binary of a decimal integer.
+// 8. Find binary complement of a decimal integer.
 
 class Binary {
     public static String findComplement(int n) {
