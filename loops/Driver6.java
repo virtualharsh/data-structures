@@ -12,7 +12,7 @@ class OperateDigits {
         return sum;
     }
 
-    public static int findProuct(int n) {
+    public static int findProduct(int n) {
         int product = 1;
 
         while (n != 0) {
@@ -26,6 +26,6 @@ class OperateDigits {
 public class Driver6 {
     public static void main(String[] args) {
         System.out.println(OperateDigits.findSum(154));
-        System.out.println(OperateDigits.findProuct(154));
+        System.out.println(OperateDigits.findProduct(154));
     }
 }

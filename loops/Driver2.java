@@ -3,7 +3,7 @@
 
 class Prime{
     public static boolean isPrime(int n){
-        if(n==1){
+        if(n==1 || n==0){
             return false;
         }
         int l = (int) java.lang.Math.ceil(java.lang.Math.sqrt(n));

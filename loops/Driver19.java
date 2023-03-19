@@ -1,7 +1,7 @@
 // 19. Check if given number is in power of 2 or not.
 
 class Number{
-    public static int  powerOf2(int n) {
+    public static int powerOf2(int n) {
         int ans = 1;
 
         for(int i=1 ; i<=n ; i++){
