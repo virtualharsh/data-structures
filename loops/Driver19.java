@@ -1,4 +1,5 @@
 // 19. Check if given number is in power of 2 or not.
+// optimal logic is to find hamming weight of n and if it's 1 return true
 
 class Number{
     public static int powerOf2(int n) {
@@ -17,6 +18,26 @@ class Number{
             if(ans==n){
                 return true;
             }
+        }
+        return false;
+    }
+
+    public static int findHamming(int n) {
+        int count = 0;
+
+        while (n != 0) {
+            if (n % 2 == 1) {
+                count++;
+            }
+            n /= 2;
+        }
+        return count;
+    }
+
+    public static boolean optimalPowerOf2(int n){
+        int hamming = findHamming(n);
+        if(hamming==1){
+            return true;
         }
         return false;
     }
