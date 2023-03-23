@@ -19,7 +19,8 @@ class ArrayDuplicate{
 
 public class Driver5 {
     public static void main(String[] args) {
-        Integer a[] = {1,3,2,4,3};
+        Integer a[] = {1,3,4,2,3};
+        // Integer a[] = { 10, 30, 20, 40, 30 };
         System.out.print(ArrayDuplicate.getDuplicate(a));
     }
 }

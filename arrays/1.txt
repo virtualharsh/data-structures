@@ -10,4 +10,8 @@
     If array = [1,3,2,4,3] => output => 3
  	If array = [1,2,3,2] => output  => 2
 
-5. 
+5. Find Intersection of 2 sorted arrays. Intersection means the same elements both arrays can have
+	If array-1 = [1,2,5,7] and array-2 = [5,6,7] => output => [5,7]
+ 	If array-1 = [1,2,3,4,5] and array-2 = [5,6] => output => [5]
+
+6. 
