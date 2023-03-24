@@ -6,6 +6,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+
 class ArrayPairSum{
     public static ArrayList<Integer[]> findPairSum(Integer a[],Integer target){
         ArrayList<Integer[]> ans = new ArrayList<>();
@@ -27,7 +28,6 @@ class ArrayPairSum{
             System.out.print("[" + i[0] + "," + i[1] + "]");
         }
         System.out.print("]");
-
     }
 }
 
