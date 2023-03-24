@@ -26,9 +26,9 @@
 	Example:- array => [1,2,3,4,5] and target => 6
 	Then answer => [ [ 0,4 ] , [ 1,3 ] ]
 
-/////////////////////////////////////////////////////////////
 9. Find triplet of indexes that gives sum equals to target
 
+/////////////////////////////////////////////////////////////
 10. sort an array with values 0,1
 
 11. sort an array with values 0,1,2
