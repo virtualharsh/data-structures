@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 class ArrayPairSum {
-    public static Integer[][] findPairSum(Integer a[],Integer start, Integer target) {
+    private static Integer[][] findPairSum(Integer a[],Integer start, Integer target) {
         ArrayList<Integer[]> ans = new ArrayList<>();
         HashMap<Integer, Integer> hm = new HashMap<>();
 
