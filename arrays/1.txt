@@ -19,9 +19,9 @@
 	If array-1 = [1,2,5,7] and array-2 = [5,6,7] => output => [5,7]
  	If array-1 = [1,2,3,4,5] and array-2 = [5,6] => output => [5]
 
-/////////////////////////////////////////////////////////////
 7. Find Intersection of 3 sorted arrays
 
+/////////////////////////////////////////////////////////////
 8. Find pairs of indexes that gives sum equals to target.
 	Index should be returned in sorted order
 	Example:- array => [1,2,3,4,5] and target => 6
