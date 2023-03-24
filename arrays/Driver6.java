@@ -38,7 +38,7 @@ class ArrayIntersection {
             mid = (first + last) / 2;
         }
         return false;
-    }
+    } 
 
     public static ArrayList<Integer> findIntersection(Integer a1[],Integer a2[]){
         ArrayList<Integer> ans = new ArrayList<>();
@@ -67,7 +67,6 @@ class ArrayIntersection {
 
     public static ArrayList<Integer> getIntersectTwoPointers(Integer a[],Integer b[]){
         ArrayList<Integer> ans = new ArrayList<>();
-
         int i=0,j=0;
         while(i<a.length && j<b.length){
             if(a[i]==b[j]){

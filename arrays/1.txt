@@ -6,12 +6,29 @@
 
 3.	Find unique value in odd size array. Every other element is present twice in array only a single value there with 1 occurrence. Return that value.
 
-4. Find duplicate value in array which contains 1 to n-1 values. You can also consider the same problem which doesn't contain 1 to n-1 values.
+4. Find whether the values in an array are in unique number of occurrence or not
+	If array = [1,2,3,4] => returns false because 1,2,3,4 elements are repeating one time.
+	If array = [1,2,2,3,3,3] => return true because every value has unique number of occurrence
+
+
+5. Find duplicate value in array which contains 1 to n-1 values. You can also consider the same problem which doesn't contain 1 to n-1 values.
     If array = [1,3,2,4,3] => output => 3
  	If array = [1,2,3,2] => output  => 2
 
-5. Find Intersection of 2 sorted arrays. Intersection means the same elements both arrays can have
+6. Find Intersection of 2 sorted arrays. Intersection means the same elements both arrays can have
 	If array-1 = [1,2,5,7] and array-2 = [5,6,7] => output => [5,7]
  	If array-1 = [1,2,3,4,5] and array-2 = [5,6] => output => [5]
 
-6. 
+/////////////////////////////////////////////////////////////
+7. Find Intersection of 3 sorted arrays
+
+8. Find pairs of indexes that gives sum equals to target.
+	Index should be returned in sorted order
+	Example:- array => [1,2,3,4,5] and target => 6
+	Then answer => [ [ 0,4 ] , [ 1,3 ] ]
+
+9. Find triplet of indexes that gives sum equals to target
+
+10. sort an array with values 0,1
+
+11. sort an array with values 0,1,2
