@@ -28,7 +28,7 @@
 
 9.  Find triplet of indexes that gives sum equals to target
 
-/////////////////////////////////////////////////////////////
+
 10. sort an array with values 0,1
 
 11. sort an array with values 0,1,2
