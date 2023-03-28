@@ -1,4 +1,4 @@
-1.	Implement all common array operations that includes traversal like finding maximum, minimum, sum, product, linear search, reverse array. (do all this solution in single class and try to reuse the loop for function).
+1.	Implement all common array operations that includes traversal like finding maximum, minimum, sum, product, linear search, reverse array, insert/delete at last, insert/delete at specific location.(do all this solution in single class and try to reuse the loop for function).
 
 2.	Write a code that swaps every alternate index element in an array.
  	If array = [10,20,30,40,50] => output array => [20,10,40,30,50]
